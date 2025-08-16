@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Jost", sans-serif;
+}
+body {
+  font-size: 1.5rem;
+  line-height: 1.867;
+  background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "DM Sans", system-ui;
+}
+a {
+  text-decoration: none;
+}
+
+header h1 {
+  margin-inline: 4rem;
+  text-transform: uppercase;
+}
+
+.header-nav {
+  margin-inline: 2rem;
+}
+
+.header-nav ul {
+  list-style: none;
+}
+
+.header-nav ul li {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: red;
+  padding: 0.5rem 1.5rem;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.stacks {
+  margin-top: 3rem;
+  margin-inline: 2rem;
+}
+
+.orders {
+  margin-top: 3rem;
+  margin-inline: 2rem;
+  background-color: rgb(175, 175, 239);
+}
+
+.orders ul li {
+  margin-inline: 2rem;
+}
+
+#home {
+  margin-inline: 2rem;
+  margin-top: 2rem;
+}
+
+#home h2 {
+  text-align: center;
+}
+
+table {
+  margin-inline: auto;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+caption {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+th {
+  font-size: 1rem;
+  padding-inline: 1rem;
+}
+
+td {
+  font-size: 0.875rem;
+}
+
+#contact {
+  /* padding-inline: 2rem; */
+  margin-inline: auto;
+  text-align: center;
+  background-color: rgb(175, 175, 239);
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#projects {
+  margin-inline: auto;
+  text-align: center;
+}
+
+#projects h2 {
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+#services {
+  margin-inline: auto;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#services h2 {
+  text-transform: uppercase;
+}
+
+.media {
+  margin-top: 3rem;
+}
+
+.services p {
+  font-size: 1rem;
+}
+
+.skills {
+  margin-top: 3rem;
+}
+
+.skills p {
+  font-size: 1rem;
+}
+
+.skills-header {
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: rgb(175, 175, 239);
+  margin-top: 4rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.personal p {
+  font-size: 1rem;
+}
+
+.personal p:last-child {
+  font-style: italic;
+}
+
+.socials {
+  font-size: 1rem;
+}
