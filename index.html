@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="my porfolio." />
+    <title>HTML PORTFOLIO</title>
+     <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <h1>This is my portfolio</h1>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+        <button class="btn">Get Resume</button>
+      </nav>
+      <nav class="stacks">
+        <dl>
+          <dt>HTML</dt>
+          <dd>HyperText Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+        </dl>
+      </nav>
+      <nav class="orders">
+        <ul>
+          <li>
+            Fruits
+            <ul>
+              <li>Apple</li>
+              <li>Banana</li>
+            </ul>
+          </li>
+          <li>
+            Vegetables
+            <ul>
+              <li>Carrot</li>
+              <li>Spinach</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Hello, I am Aikhuegbe Daniel</h2>
+      <p>An aspiring software developer with great love for technology.</p>
+      <button class="btn">Know More</button>
+    </section>
+
+    <!-- Table section -->
+     <table border="1">
+      <caption>Employee Data</caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Country</th> 
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>25</td>
+          <td>USA</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>30</td>
+          <td>Canada</td>
+        </tr> 
+        </tr>
+      </tbody>
+     </table>
+
+    <!-- Contact Section  -->
+    <section id="contact">
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="name" />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea name="Message"></textarea>
+        </div>
+        <button class="btn">Send Email</button>
+      </form>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div>
+        <img src="e-commerce.jpg" alt="e-commerce website" />
+        <img src="calculator.jpg" alt="calculator" />
+        <img src="tic-tac-toe.jpg" alt="tictactoe game" />
+      </div>
+    </section>
+
+    <!-- Services Section  -->
+    <section id="services">
+      <div>
+        <h2>Services</h2>
+        <p>An aspiring software developer with great love for technology.</p>
+        <div>
+          <button class="btn">Know More</button>
+          <button class="btn">Download Resume</button>
+        </div>
+      </div>
+
+      <div class="media">
+        <audio controls autoplay loop type="audio/mpeg"></audio><br/>
+        <video controls width="640" height="360">
+          <source type="video/mp4">
+        </video>
+      </div>
+
+      <div class="skills">
+        <div class="skills-header">
+          <h3>Web Development</h3>
+          <p>I have great interest in web development</p>
+        </div>
+        <div class="skills-header">
+          <h3>Network Engineer</h3>
+          <p>
+            I install and troubleshoot Wi-Fi networks. I configure all types of
+            routers such as: D-Link, TP-Link, and Mikrotik routers.
+          </p>
+        </div>
+        <div class="skills-header">
+          <h3>Solar Installer</h3>
+          <p>
+            Installation and maintenance of solar/inverter systems. Mounting of
+            solar panels on rooftops and other fabricated structures.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <div class="personal">
+        <h3>Mazalee</h3>
+        <p>eromondan@gmail.com</p>
+        <p>copyright © 2022 Mazalee</p>
+      </div>
+      <div class="socials">
+        <a href="#linkedin">Linkedin</a>
+        <a href="#instagram">Instagram</a>
+        <a href="#facebook">Facebook</a>
+        <a href="whatsapp">WhatsApp</a>
+      </div>
+    </footer>
+  </body>
+</html>
